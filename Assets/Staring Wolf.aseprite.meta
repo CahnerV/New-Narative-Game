@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 457b1e2b3c46eff48af9f341fc691f4f
+guid: db15b19ab00d56843b0faa484d9de714
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Ground
+  - name: Staring Wolf
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.527027, y: -0.15384616}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 640
-      height: 32
-    spriteID: e31f5dcc93409484e803a0c938c923e4
+      width: 74
+      height: 52
+    spriteID: 544731a91d7b90647b63ddf2696f2602
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 2024493761
+      value0: 1647542230
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Ground
+    name: Staring Wolf
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Ground
+    - name: Staring Wolf
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 640
-        height: 32
-      spriteId: e31f5dcc93409484e803a0c938c923e4
+        x: 25
+        y: 8
+        width: 74
+        height: 52
+      spriteId: 544731a91d7b90647b63ddf2696f2602
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -181,5 +181,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 640, y: 96}
-  previousTextureSize: {x: 1024, y: 64}
+  canvasSize: {x: 128, y: 64}
+  previousTextureSize: {x: 128, y: 64}
