@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 457b1e2b3c46eff48af9f341fc691f4f
+guid: 52b8f076ebab9ba45a56c96d20990a68
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,7 +127,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Ground
+  - name: Forest Background
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 640
-      height: 32
-    spriteID: e31f5dcc93409484e803a0c938c923e4
+      width: 128
+      height: 160
+    spriteID: 01f6b7d90ee38de4c95deefc36734b4e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 2024493761
+      value0: 3399171767
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Ground
+    name: Forest Background
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Ground
+    - name: Forest Background
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
-        width: 640
-        height: 32
-      spriteId: e31f5dcc93409484e803a0c938c923e4
+        width: 128
+        height: 160
+      spriteId: 01f6b7d90ee38de4c95deefc36734b4e
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -181,5 +181,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 640, y: 96}
-  previousTextureSize: {x: 1024, y: 64}
+  canvasSize: {x: 128, y: 160}
+  previousTextureSize: {x: 256, y: 256}
