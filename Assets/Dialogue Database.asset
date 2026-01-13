@@ -614,10 +614,24 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
+<<<<<<< Updated upstream
         value: Willie looks at you with with a grin, "Sure you're smart, bud, but
           this thing isn't really for camping. You're glamping this point!" You stare
           at him with confusion. He stares back. "Glamping? You know, like camping
           with all this extra stuff? That glamping?"
+=======
+        value: 'Willie looks at you with with a grin, "Sure you''re smart, bud, but
+          this thing isn''t really for camping. You''re glamping this point!" You
+          stare at him with confusion. He stares back. "Glamping? You know, like
+          camping with all this extra stuff? That glamping?"
+
+
+
+          You''re
+          still confused, but Willie ignores your confusion and hops on anyways.
+          "Whatever man, just kick it into high gear so we can get Justin. Heard
+          he''s been ready since 6 AM."'
+>>>>>>> Stashed changes
         type: 0
         typeString: 
       - title: Sequence
@@ -677,7 +691,18 @@ MonoBehaviour:
           towards the small sleeping bag hanging off of his shoulder.
 
           "This
+<<<<<<< Updated upstream
           baby''s got everything I''ll need to stave the cold nights away!"'
+=======
+          baby''s got everything I''ll need to stave the cold nights away!"
+
+
+
+          Willie
+          struts into the Rv and sits comfortably on the couch. "Justin''s been bugging
+          me all morning about this trip, so we better hustle to get him before he
+          starts exploding his "camping facts" onto his parents!"'
+>>>>>>> Stashed changes
         type: 0
         typeString: 
       - title: Sequence
@@ -803,8 +828,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
+<<<<<<< Updated upstream
         x: 1652.4988
         y: 65.773346
+=======
+        x: 941.3629
+        y: 102.53221
+>>>>>>> Stashed changes
         width: 160
         height: 30
     - id: 11
