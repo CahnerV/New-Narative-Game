@@ -78,4 +78,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Aesprite Meta
-*.asesprite.meta
+*.aseprite.meta
