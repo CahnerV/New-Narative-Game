@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     Rigidbody2D body;
+    Animator anim;
 
     float horizontal;
     float vertical;
@@ -13,12 +14,24 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
         // Gives a value between -1 and 1
         horizontal = Input.GetAxisRaw("Horizontal");  // -1 is left
+        anim.SetFloat("x", horizontal);
+        
+        if (horizontal !=0){
+            anim.SetBool("isWalking", true);
+        }
+        else {
+            anim.SetBool("isWalking", false);
+        }
+        
+        
+        
         vertical = Input.GetAxisRaw("Vertical");      // -1 is down
     }
 
