@@ -6,6 +6,7 @@ public class RVSceneLoader : MonoBehaviour
     [Tooltip("GO FIND SUPPLIES")]
     public bool playerInRange;
     public string nextSceneName;
+    public GameObject popup;
 
     public void Start (){
         playerInRange = false;
@@ -15,8 +16,18 @@ public class RVSceneLoader : MonoBehaviour
        
         if (playerInRange && Input.GetKeyDown("e"))
             {
+
                 LoadNextScene();
             }
+
+        if (playerInRange)
+        {
+             popup.SetActive(true);
+        }
+        else
+        {
+             popup.SetActive(false);
+        }
 
     }
 

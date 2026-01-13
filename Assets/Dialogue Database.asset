@@ -495,12 +495,9 @@ MonoBehaviour:
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
-        value: "You, in your wealthy wisdoms, decide that an RV is the best thing
+        value: 'You, in your wealthy wisdoms, decide that an RV is the best thing
           to bring on this trip. As you pick up your friends, you see the supplies
-          they decided to bring with themselves. \n\nAs you pick Willie up, he greets
-          you with a toothy grin. He's wearing the same thing he always wears: Levi
-          jeans, a dirty white tanktop, and his Tims, which he paid extra to modify
-          with wheelies. His watch and chain necklaces beam the sun into your eyes."
+          they decided to bring with themselves. '
         type: 0
         typeString: 
       - title: Dialogue Text
@@ -522,7 +519,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 5
         destinationConversationID: 1
-        destinationDialogueID: 1
+        destinationDialogueID: 13
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -532,7 +529,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 134.9434
+        x: 136.5059
         y: 97
         width: 160
         height: 30
@@ -559,13 +556,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: "\"Ok, ok, don't get your skinny jeans in a twist,\" Says Willie,
-          holding his hands up in defense, \"but just so you know, I am NOT spending
-          a single night in that thing as long as I don't have to. I got my sleeping
-          bag, and that is the only thing I'm gonna need!\" \r\n\r\nAfter that \"heartwarming\"
-          statement, Willie climbs on and takes a seat at the mini table. \"Now,
-          get moving towards Justin's place, poor guy's probably thinking we left
-          without him at this point.\""
+        value: '"Ok, ok, don''t get your skinny jeans in a twist," Says Willie, holding
+          his hands up in defense, "but just so you know, I am NOT spending a single
+          night in that thing as long as I don''t have to. I got my sleeping bag,
+          and that is the only thing I''m gonna need!" '
         type: 0
         typeString: 
       - title: Sequence
@@ -583,7 +577,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 6
         destinationConversationID: 1
-        destinationDialogueID: 10
+        destinationDialogueID: 15
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -593,8 +587,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 842.3111
-        y: 44.77362
+        x: 846.3927
+        y: 40.691986
         width: 160
         height: 30
     - id: 7
@@ -620,14 +614,10 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: 'Willie looks at you with with a grin, "Sure you''re smart, bud, but
-          this thing isn''t really for camping. You''re glamping this point!" You
-          stare at him with confusion. He stares back. "Glamping? You know, like
-          camping with all this extra stuff? That glamping?"
-
-
-
-'
+        value: Willie looks at you with with a grin, "Sure you're smart, bud, but
+          this thing isn't really for camping. You're glamping this point!" You stare
+          at him with confusion. He stares back. "Glamping? You know, like camping
+          with all this extra stuff? That glamping?"
         type: 0
         typeString: 
       - title: Sequence
@@ -655,7 +645,7 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 933.4998
+        x: 943.70386
         y: 174.00003
         width: 160
         height: 30
@@ -687,14 +677,7 @@ MonoBehaviour:
           towards the small sleeping bag hanging off of his shoulder.
 
           "This
-          baby''s got everything I''ll need to stave the cold nights away!"
-
-
-
-          Willie
-          struts into the Rv and sits comfortably on the couch. "Justin''s been bugging
-          me all morning about this trip, so we better hustle to get him before he
-          starts exploding his "camping facts" onto his parents!"'
+          baby''s got everything I''ll need to stave the cold nights away!"'
         type: 0
         typeString: 
       - title: Sequence
@@ -712,7 +695,7 @@ MonoBehaviour:
       - originConversationID: 1
         originDialogueID: 8
         destinationConversationID: 1
-        destinationDialogueID: 9
+        destinationDialogueID: 14
         isConnector: 0
         priority: 2
       conditionsString: 
@@ -926,13 +909,185 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1253.0647
+        x: 1255.1055
         y: 180.52179
         width: 160
         height: 30
+    - id: 13
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 3
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: -1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: 'As you pick Willie up, he greets you with a toothy grin. He''s wearing
+          the same thing he always wears: Levi jeans, a dirty white tanktop, and
+          his Tims, which he paid extra to modify with wheelies. His watch and chain
+          necklaces beam the sun into your eyes.'
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 13
+        destinationConversationID: 1
+        destinationDialogueID: 1
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 316.19333
+        y: 51.68756
+        width: 160
+        height: 30
+    - id: 14
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Willie struts into the Rv and sits comfortably on the couch. "Justin's
+          been bugging me all morning about this trip, so we better hustle to get
+          him before he starts exploding his "camping facts" onto his parents!"
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 14
+        destinationConversationID: 1
+        destinationDialogueID: 9
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1203.7142
+        y: 285.95926
+        width: 160
+        height: 30
+    - id: 15
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 2
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: After that "heartwarming" statement, Willie climbs on and takes a
+          seat at the mini table. "Now, get moving towards Justin's place, poor guy's
+          probably thinking we left without him at this point."
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 1
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 1
+        originDialogueID: 15
+        destinationConversationID: 1
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1213.7393
+        y: 49.8757
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 68.5742, y: 4.495536}
-    canvasZoom: 0.31000045
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.28000045
   - id: 2
     fields:
     - title: Title
@@ -1193,7 +1348,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 4
+        destinationConversationID: 2
+        destinationDialogueID: 9
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -1202,7 +1363,7 @@ MonoBehaviour:
       canvasRect:
         serializedVersion: 2
         x: 942.6916
-        y: 39.615555
+        y: 37.79738
         width: 160
         height: 30
     - id: 5
@@ -1242,7 +1403,13 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks: []
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 5
+        destinationConversationID: 2
+        destinationDialogueID: 6
+        isConnector: 0
+        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -1254,9 +1421,333 @@ MonoBehaviour:
         y: 135.76933
         width: 160
         height: 30
+    - id: 6
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Justin sighs and clears his throat. "It . . uh . . . well, it means
+          I'm happy to go camping with you guys!" He sounds nervous, just like when
+          a teacher would tell him off for overexplaing his presentations to the
+          point that not even a teacher could understand.
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 6
+        destinationConversationID: 2
+        destinationDialogueID: 7
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1136.7015
+        y: 177.57262
+        width: 160
+        height: 30
+    - id: 7
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: But everyone is here now! It's time to put some pedal to the metal
+          and head to the campsite!
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 7
+        destinationConversationID: 2
+        destinationDialogueID: 8
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1345.7922
+        y: 209.3908
+        width: 160
+        height: 30
+    - id: 8
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: '"Let''s Get Camping!"'
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: SetActive(SceneTransition,true)
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1518.5194
+        y: 257.5727
+        width: 160
+        height: 30
+    - id: 9
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: '"That''s the spirit!" announces Justin, preparing to drag his duffel
+          bag into the RV, "Now then, I assume you all are equally well prepared
+          for this trip? I made sure to bring a little extra of everything."'
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 9
+        destinationConversationID: 2
+        destinationDialogueID: 10
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1157.2368
+        y: 47.79741
+        width: 160
+        height: 30
+    - id: 10
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: Either way, everyone is now aboard. It's time to head out to the campsite!
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: 
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks:
+      - originConversationID: 2
+        originDialogueID: 10
+        destinationConversationID: 2
+        destinationDialogueID: 11
+        isConnector: 0
+        priority: 2
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1368.1458
+        y: 72.34288
+        width: 160
+        height: 30
+    - id: 11
+      fields:
+      - title: Title
+        value: 
+        type: 0
+        typeString: 
+      - title: Description
+        value: 
+        type: 0
+        typeString: 
+      - title: Actor
+        value: 1
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Conversant
+        value: 4
+        type: 5
+        typeString: CustomFieldType_Actor
+      - title: Menu Text
+        value: 
+        type: 0
+        typeString: 
+      - title: Dialogue Text
+        value: '"Onward!"'
+        type: 0
+        typeString: 
+      - title: Sequence
+        value: SetActive(SceneTransition,true)
+        type: 0
+        typeString: 
+      conversationID: 2
+      isRoot: 0
+      isGroup: 0
+      nodeColor: 
+      delaySimStatus: 0
+      falseConditionAction: Block
+      conditionPriority: 2
+      outgoingLinks: []
+      conditionsString: 
+      userScript: 
+      onExecute:
+        m_PersistentCalls:
+          m_Calls: []
+      canvasRect:
+        serializedVersion: 2
+        x: 1539.0547
+        y: 122.34288
+        width: 160
+        height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 87.80065, y: 0.63065124}
-    canvasZoom: 0.64000034
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 0.31000045
   syncInfo:
     syncActors: 0
     syncItems: 0
