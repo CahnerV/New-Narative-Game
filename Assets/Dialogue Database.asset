@@ -2042,11 +2042,11 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Actor
-        value: 2
+        value: 3
         type: 5
         typeString: CustomFieldType_Actor
       - title: Conversant
-        value: 5
+        value: -1
         type: 5
         typeString: CustomFieldType_Actor
       - title: Menu Text
@@ -2054,9 +2054,7 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Dialogue Text
-        value: '"You know what would be great right now?" ,says Willie, puffing out
-          his pillow, "some s''mores. I''m still hungry after dinner, so I think
-          some dessert is in order."'
+        value: '"I think Willie has something to say to you"'
         type: 0
         typeString: 
       - title: Sequence
@@ -2078,13 +2076,13 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 594.1692
+        x: 593.0822
         y: 201.78687
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 226.64368, y: 34.771317}
-    canvasZoom: 1.0099996
+    canvasScrollPosition: {x: 204.17274, y: 19.52847}
+    canvasZoom: 0.9199997
   - id: 5
     fields:
     - title: Title
