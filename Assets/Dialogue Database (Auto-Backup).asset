@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 935899b62f48ae5498594680ed17d133, type: 3}
-  m_Name: Dialogue Database
+  m_Name: Dialogue Database (Auto-Backup)
   m_EditorClassIdentifier: DialogueSystem::PixelCrushers.DialogueSystem.Wrappers.DialogueDatabase
   version: 
   author: 
@@ -2301,8 +2301,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1126.3876
-        y: 318.64038
+        x: 956.52454
+        y: 337.81848
         width: 160
         height: 30
     - id: 6
@@ -2368,8 +2368,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1126.3875
-        y: 436.43707
+        x: 956.5244
+        y: 455.61517
         width: 160
         height: 30
     - id: 7
@@ -2423,8 +2423,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1021.3027
-        y: 559.3184
+        x: 851.43964
+        y: 578.4965
         width: 160
         height: 30
     - id: 8
@@ -2478,8 +2478,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1238.2518
-        y: 554.23364
+        x: 1068.3888
+        y: 573.41174
         width: 160
         height: 30
     - id: 9
@@ -2528,8 +2528,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 1123.1893
-        y: 682.9033
+        x: 953.32635
+        y: 702.0814
         width: 160
         height: 30
     - id: 10
@@ -2569,13 +2569,7 @@ MonoBehaviour:
       delaySimStatus: 0
       falseConditionAction: Block
       conditionPriority: 2
-      outgoingLinks:
-      - originConversationID: 5
-        originDialogueID: 10
-        destinationConversationID: 5
-        destinationDialogueID: 15
-        isConnector: 0
-        priority: 2
+      outgoingLinks: []
       conditionsString: Variable["Logs_Collected"] ~= 0
       userScript: 
       onExecute:
@@ -2583,8 +2577,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 769.847
-        y: 499.11218
+        x: 1401.3536
+        y: 422.39984
         width: 160
         height: 30
     - id: 11
@@ -2754,8 +2748,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 459.99988
-        y: 368.35608
+        x: 440.82178
+        y: 386.1643
         width: 160
         height: 30
     - id: 14
@@ -2803,8 +2797,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 449.04102
-        y: 489.58893
+        x: 429.8629
+        y: 507.39716
         width: 160
         height: 30
     - id: 15
@@ -2855,8 +2849,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 191.5068
-        y: 766.3012
+        x: 109.31505
+        y: 519.72595
         width: 160
         height: 30
     entryGroups: []
