@@ -20,6 +20,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GO FIND SUPPLIES.unity
     guid: ef0bee749feec0046bcfbebe655201a3
+  - enabled: 1
+    path: Assets/Scenes/NIGHT NIGHT.unity
+    guid: 7f535929db8882540b95ebc04f101a16
+  - enabled: 1
+    path: Assets/Scenes/GoodCAMPSITE.unity
+    guid: 3b9a6ed743add2a419c0c83dde0aecad
+  - enabled: 1
+    path: Assets/Scenes/Good Ending.unity
+    guid: da377290c99ec5d4dbf7d9b0a1660a9e
+  - enabled: 1
+    path: Assets/Scenes/Bad Ending.unity
+    guid: f25257373bd579447aa89e3230864b82
   m_configObjects:
     com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
